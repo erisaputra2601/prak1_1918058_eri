@@ -14,9 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void biodata(View view){
+    public void biodata(View view) {
         Intent a = new Intent(MainActivity.this,
                 Biodata.class);
         startActivity(a);
+    }
+    public void segitiga(View view) {
+        Intent b = new Intent(MainActivity.this,
+                Segitiga.class);
+        startActivity(b);
     }
 }
